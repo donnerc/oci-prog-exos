@@ -7,3 +7,4 @@ push:
 
 update:
 	./update.sh
+
