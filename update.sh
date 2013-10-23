@@ -6,3 +6,5 @@ git fetch upstream
 echo "assemblage des modifications dans votre dépôt"
 git checkout master
 git merge upstream/master -m "mise à jour du dépôt à partir du dépôt original de donnerc"
+
+echo "salut les copains"
