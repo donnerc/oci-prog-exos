@@ -12,9 +12,3 @@
 # auteur : 
 ##################################
 
-print("ligne exemple")
-
-for i in range(10):
-    print(i)
-    
-print("au revoir!")
