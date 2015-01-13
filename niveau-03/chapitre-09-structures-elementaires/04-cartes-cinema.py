@@ -21,3 +21,22 @@ def check(nb_clients):
     return -1
     
 print(check(nb_clients))
+
+'''
+# Version de France IOI
+
+MAX_VAL = 1000 * 1000 + 1
+dejaVu = [False] * MAX_VAL
+ 
+def main():
+   nbValeurs = int(input())
+   valeurs = map(int, input().split())
+   for valeur in valeurs:
+      if dejaVu[valeur]:
+         print(valeur)
+         return
+      dejaVu[valeur] = True
+   print(-1)
+ 
+main()
+'''
